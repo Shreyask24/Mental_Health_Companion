@@ -7,8 +7,11 @@ import { BrowserRouter } from "react-router-dom"
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Home />
+     <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/peers" element={<Peers />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
