@@ -5,8 +5,6 @@ import Navbar from "./Navbar";
 export default function Home() {
     return (
         <>
-            <Navbar />
-
             <section className="min-h-screen bg-gradient-to-br from-amber-50 to-white flex items-center justify-center px-6">
                 <div className="max-w-2xl text-center">
                     <h2 className="text-4xl font-bold text-amber-800 mb-4">
